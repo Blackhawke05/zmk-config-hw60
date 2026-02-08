@@ -1,3 +1,5 @@
+#include <dt-bindings/zmk/physical-layouts.h>
+
 / {
     handwired_5x12_physical_layout: handwired_5x12_physical_layout {
         compatible = "zmk,physical-layout";
