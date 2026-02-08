@@ -1,4 +1,4 @@
-#include <zmk/app/dts/physical_layouts.dtsi>
+#include <zmk/physical_layouts.dtsi>
 
 / {
     handwired_5x12_physical_layout: handwired_5x12_physical_layout {
