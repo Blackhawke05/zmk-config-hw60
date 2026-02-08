@@ -1,4 +1,4 @@
-#include <dt-bindings/zmk/matrix-transform.h>
+#include <dt-bindings/zmk/matrix_transform.h>
 #include "handwired_5x12.physical_layout.dtsi"
 
 / {
