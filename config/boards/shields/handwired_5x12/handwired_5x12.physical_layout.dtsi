@@ -2,6 +2,7 @@
     /* REQUIRED by ZMK Studio */
     key_physical_attrs: key_physical_attrs {
         compatible = "zmk,key-physical-attrs";
+        #key-cells = <7>;
     };
 
     handwired_5x12_physical_layout: handwired_5x12_physical_layout {
