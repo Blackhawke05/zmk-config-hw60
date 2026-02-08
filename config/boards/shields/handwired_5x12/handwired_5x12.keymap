@@ -4,6 +4,7 @@
 
 / {
     chosen {
+        zmk,kscan = &kscan0;
         zmk,matrix-transform = &default_transform;
     };
 
@@ -19,13 +20,12 @@
             RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5) RC(4,6) RC(4,7) RC(4,8) RC(4,9) RC(4,10) RC(4,11)
         >;
     };
-};
 
-/ {
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
+            display-name = "Base";
             bindings = <
                 &kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T      &kp Y  &kp U  &kp I     &kp O    &kp P     &kp BSPC
                 &kp ESC    &kp A  &kp S  &kp D     &kp F  &kp G      &kp H  &kp J  &kp K     &kp L    &kp SEMI  &kp SQT
@@ -36,6 +36,7 @@
         };
 
         lower_layer {
+            display-name = "Lower";
             bindings = <
                 &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5     &kp N6     &kp N7    &kp N8    &kp N9   &kp N0    &kp DEL
                 &trans     &none   &none   &none   &none   &none      &kp MINUS  &kp EQUAL &kp LBKT  &kp RBKT &kp BSLH  &trans
@@ -46,6 +47,7 @@
         };
 
         raise_layer {
+            display-name = "Raise";
             bindings = <
                 &kp TILDE  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT  &kp CARET &kp AMPS &kp STAR &kp LPAR &kp RPAR &trans
                 &trans     &none    &none  &none    &none    &none      &kp UNDER &kp PLUS &kp LBRC &kp RBRC &kp PIPE &trans
