@@ -39,4 +39,13 @@
             >;
         };
     };
+    combos {
+        compatible = "zmk,combos";
+    
+        combo_studio_unlock {
+            timeout-ms = <50>;
+            key-positions = <0 1>;  // Top-left two keys
+            bindings = <&studio_unlock>;
+        };
+    };
 };
