@@ -67,7 +67,7 @@
         
         combo_toggle_colemak {
             timeout-ms = <50>;
-            key-positions = <49 60>;
+            key-positions = <57 59>;
             bindings = <&tog 3>;
         };
     };
