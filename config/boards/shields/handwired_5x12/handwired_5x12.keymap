@@ -11,7 +11,7 @@
             bindings = <
                 &kp ESC    &kp N1   &kp N2   &kp N3    &kp N4  &kp N5           &kp N6    &kp N7     &kp N8    &kp N9    &kp N0    &kp BSPC
                 &kp TAB    &kp Q    &kp W    &kp E     &kp R   &kp T            &kp Y     &kp U      &kp I     &kp O     &kp P     &kp RET
-                &kp TAB    &kp A    &kp S    &kp D     &kp F   &kp G            &kp H     &kp J      &kp K     &kp L     &kp SEMI  &kp SQT
+                &kp BSPC    &kp A    &kp S    &kp D     &kp F   &kp G            &kp H     &kp J      &kp K     &kp L     &kp SEMI  &kp SQT
                 &kp LSHFT  &kp Z    &kp X    &kp C     &kp V   &kp B            &kp N     &kp M      &kp COMMA &kp DOT   &kp FSLH  &kp RSHFT
                 &kp LCTRL  &kp LGUI &kp LALT &mo 2     &mo 1   &mt LSHFT SPACE  &kp SPACE &kp MINUS  &kp UP    &kp LEFT  &kp DOWN  &kp RIGHT
             >;
@@ -67,7 +67,7 @@
         
         combo_toggle_colemak {
             timeout-ms = <50>;
-            key-positions = <0 11>;
+            key-positions = <49 60>;
             bindings = <&tog 3>;
         };
     };
